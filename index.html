@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zomato-Clone</title>
+  <link rel="icon" href="https://cdn.iconscout.com/icon/free/png-256/free-zomato-1937646-1637644.png">
+  <link rel="stylesheet" href="styles.css">
+  //font Awesome
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- header section starts -->
+  <header id="header">
+    <div class="image-container">
+      <img src="image/zomato-banner-img.avif" alt="banner-image">
+    </div>
+
+    <div class="header-body-section">
+      <nav class="nav">
+        <div class="container container-nav">
+          <div class="logo-container">
+            <img class="icon-getapp" src="image/icon-getapp.png" alt="download-phone-icon">
+            <p> Get the App</p>
+          </div>
+          <ul>
+            <li><a href="investor">Investor Relations</a></li>
+            <li><a href="restaurant">Add restaurant</a></li>
+            <li><a href="login">Log in</a></li>
+            <li><a href="signup">Sign Up</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="header-body-wrapper">
+        <div class="container container-header-body">
+          <img class="zomato-logo" src="image/zomato-white-logo.avif" alt="">
+          <h1 class="header-body-section-tag-line">Discover the best food & drinks in Kochi</h1>
+          <div class="search-container">
+
+            <div class="location-bar">
+              <i class="fa-sharp fa-solid fa-location-dot location-icon"></i>
+              <input type="text" placeholder="Fort Kochi, Kochi" />
+              <i class="fa-solid fa-caret-down arrow-down"></i>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="search-bar">
+              <!-- <i class="fa-light fa-magnifying-glass search-icon"></i> -->
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#828282" padding="8px" width="18" height="18"
+                viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img"
+                class="sc-rbbb40-0 iwHbVQ">
+                <title>Search</title>
+                <path
+                  d="M19.78 19.12l-3.88-3.9c1.28-1.6 2.080-3.6 2.080-5.8 0-5-3.98-9-8.98-9s-9 4-9 9c0 5 4 9 9 9 2.2 0 4.2-0.8 5.8-2.1l3.88 3.9c0.1 0.1 0.3 0.2 0.5 0.2s0.4-0.1 0.5-0.2c0.4-0.3 0.4-0.8 0.1-1.1zM1.5 9.42c0-4.1 3.4-7.5 7.5-7.5s7.48 3.4 7.48 7.5-3.38 7.5-7.48 7.5c-4.1 0-7.5-3.4-7.5-7.5z">
+                </path>
+              </svg>
+              <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <!-- header section ends-->
+
+  <!-- Features Section Starts -->
+  <section class="section-features">
+    <div class="container container-features">
+
+      <div class="features">
+        <div class="feature-image">
+          <img src="image/zomato-1.avif" alt="">
+        </div>
+        <p class="feature-title">Order Online</p>
+        <p>Stay home and order to your doorstep</p>
+      </div>
+
+      <div class="features">
+        <div class="feature-image">
+          <img src="image/zomato-2.avif" alt="">
+        </div>
+        <p class="feature-title">Dining</p>
+        <p>View the city's favourate dining venues</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-collection">
+    <div class="section-collection-top container">
+      <div class="section-collection-title">
+        <h2>Collections</h2>
+        <p>Explore curated lists of top resturants, cafes, pubs, and bars in Kochi, based on trends </p>
+      </div>
+      <div class="section-collection-sub">
+        <span>All collections in Kochi <i class="fa-solid fa-caret-right" style="color: #ff7e8b;"></i></span>
+      </div>
+    </div>
+
+    <div class="section-collection-body container">
+
+      <div class="section-collection-item" style="background:linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,1)), url('image/collection-1.avif'); background-position: center; background-size: cover;">
+      
+        <div class="section-collection-image-description">
+          <p class="collection-head-title">7 Newly Opened Restaura...</p>
+          <p class="collection-sub-head">6 places <i class="fa-solid fa-caret-right"></i></p>
+        </div>
+      </div>
+
+      <div class="section-collection-item " style="background:linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,1)), url('image/collection-2.avif'); background-position: center; background-size: cover;">
+      
+        <div class="section-collection-image-description">
+          <p class="collection-head-title">8 Places for Art Lovers</p>
+          <p class="collection-sub-head">8 places <i class="fa-solid fa-caret-right"></i></p>
+        </div>
+      </div>
+
+      <div class="section-collection-item " style="background:linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,1)), url('image/collection-3.avif'); background-position: center; background-size: cover;">
+      
+        <div class="section-collection-image-description">
+          <p class="collection-head-title">14 Great Cafes</p>
+          <p class="collection-sub-head">15 places <i class="fa-solid fa-caret-right"></i></p>
+        </div>
+      </div>
+
+      <div class="section-collection-item " style="background:linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,1)), url('image/collection-4.avif'); background-position: center; background-size: cover;">
+      
+        <div class="section-collection-image-description">
+          <p class="collection-head-title">6 Places for Authentic Ku...</p>
+          <p class="collection-sub-head">5 places <i class="fa-solid fa-caret-right"></i></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- section collection ends-->
+
+  <!-- section cities starts -->
+  <section class="section-cities container">
+    <!-- <div class="cities-main-container"> -->
+    <div class="cities-title-container">
+      <h1 class="cities-title">Popular localities in and around <span>Kochi</span></h1>
+    </div>
+    <div class="cities-container-box container">
+      <div class="cities-main-box">
+        <div class="cities-box">
+          <div class="cities-wrap-box">
+            <h5 class="cities-name">Kakkanad</h5>
+            <p class="cities-count">383 places</p>
+            <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cities-main-box">
+        <div class="cities-box">
+          <div class="cities-wrap-box">
+            <h5 class="cities-name">Edappally</h5>
+            <p class="cities-count">294 places</p>
+            <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cities-main-box">
+        <div class="cities-box">
+          <div class="cities-wrap-box">
+            <h5 class="cities-name">Fort Kochi</h5>
+            <p class="cities-count">113 places</p>
+            <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cities-main-box">
+        <div class="cities-box">
+          <div class="cities-wrap-box">
+            <h5 class="cities-name">Panampilly Nagar</h5>
+            <p class="cities-count">87 places</p>
+            <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cities-main-box">
+        <div class="cities-box">
+          <div class="cities-wrap-box">
+            <h5 class="cities-name">MG Road</h5>
+            <p class="cities-count">88 places</p>
+            <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cities-main-box">
+        <div class="cities-box">
+          <div class="cities-wrap-box">
+            <h5 class="cities-name">Kacheripady</h5>
+            <p class="cities-count">100 places</p>
+            <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cities-main-box">
+        <div class="cities-box">
+          <div class="cities-wrap-box">
+            <h5 class="cities-name">Palarivattom</h5>
+            <p class="cities-count">134 places</p>
+            <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cities-main-box">
+        <div class="cities-box">
+          <div class="cities-wrap-box">
+            <h5 class="cities-name">Vyttila</h5>
+            <p class="cities-count">118 places</p>
+            <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+          </div>
+        </div>
+      </div>
+      <!-- see more start -->
+      <div class="cities-main-box">
+        <div class="cities-box">
+          <div class="cities-wrap-box">
+            <h5 class="cities-name see-more">see more</h5>
+            <span class="chevron-right down"><i class="fa-solid fa-chevron-down fa-xs"></i></span>
+          </div>
+        </div>
+      </div>
+      <!-- see more ends -->
+
+      <!-- <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Pallimukku</h5>
+                        <p class="cities-count">61 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Kaloor</h5>
+                        <p class="cities-count">187 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Elamkulam</h5>
+                        <p class="cities-count">64 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Marad</h5>
+                        <p class="cities-count">94 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Tripunithura</h5>
+                        <p class="cities-count">159 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Mattancherry</h5>
+                        <p class="cities-count">37 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Marine Drive</h5>
+                        <p class="cities-count">67 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Aluva</h5>
+                        <p class="cities-count">224 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Nedumbassery</h5>
+                        <p class="cities-count">77 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Ravipuram</h5>
+                        <p class="cities-count">26 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Chittoor Road</h5>
+                        <p class="cities-count">37 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Kadavanthra</h5>
+                        <p class="cities-count">77 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Willingdon Island</h5>
+                        <p class="cities-count">22 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Kalamassery</h5>
+                        <p class="cities-count">183 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Vennala</h5>
+                        <p class="cities-count">50 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Thopumpady</h5>
+                        <p class="cities-count">76 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Thevera</h5>
+                        <p class="cities-count">49 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Elamakkara</h5>
+                        <p class="cities-count">52 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Angamali</h5>
+                        <p class="cities-count">91 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Vypin</h5>
+                        <p class="cities-count">35 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name">Chullickal</h5>
+                        <p class="cities-count">29 places</p>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div> -->
+
+      <!-- see less start -->
+      <!--<div class="cities-main-box">
+                <div class="cities-box">
+                    <div class="cities-wrap-box">
+                        <h5 class="cities-name see-more">see less</h5>
+                        <span class="chevron-right"><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                    </div>
+                </div>
+            </div> -->
+      <!-- see less ends -->
+
+
+    </div>
+  </section>
+
+
+  <!-- GetApp Section starts -->
+  <section class="section-get-app">
+    <div class="get-app-container">
+      <div class="get-app-wrapper">
+
+        <div class="get-app-img-container">
+          <img class="get-app-img" src="image/get-app-img.avif" alt="">
+        </div>
+
+        <div class="get-app-right-container">
+          <div class="get-app-title">
+            <h2>Get the Zomato app</h2>
+            <p class="get-app-sub-title">We will send you a link, open it on your phone to download the app
+            </p>
+
+
+            <div class="radio-btn-container">
+
+              <div class="radio-btns-wrapper">
+                <input class="radio-btn btn-fill" type="radio" value="Email" checked><span>Email</span>
+                <input class="radio-btn" type="radio" value="type here.."><span>Phone</span>
+              </div>
+
+            </div>
+
+
+            <div class="email-share">
+              <input class="email-placeholder-box" type="placeholder" value="Email">
+
+              <button class="share-btn">
+                <span class="share-text">Share App Link</spanc>
+              </button>
+            </div>
+
+
+
+            <p class="dwnld-app-form">Download app from</p>
+
+            <div class="store-img">
+              <img src="image/zomato-playstore-logo.webp" alt="">
+              <img src="image/zomato-app-store.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </section>
+  <!-- GetApp Section ends -->
+
+  <!-- Explore section starts-->
+  <section>
+    <div class="explore-main-container container">
+      <div class="explore-container">
+        <h1 class="explore-title">Explore options near me</h1>
+        <div class="explore-main-box ">
+          <div class="explore-box">
+            <div class="explore-wrap-box">
+              <h5 class="explore-name">Popular Cusines near me</h5>
+              <span class="chevron-down"><i class="fa-solid fa-chevron-down fa-xs"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-main-box ">
+          <div class="explore-box">
+            <div class="explore-wrap-box">
+              <h5 class="explore-name">Popular restaurant types near me</h5>
+              <span class="chevron-down"><i class="fa-solid fa-chevron-down fa-xs"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-main-box ">
+          <div class="explore-box">
+            <div class="explore-wrap-box">
+              <h5 class="explore-name">Top Restaurant Chains</h5>
+              <span class="chevron-down"><i class="fa-solid fa-chevron-down fa-xs"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-main-box ">
+          <div class="explore-box">
+            <div class="explore-wrap-box">
+              <h5 class="explore-name">Cities We Deliver To</h5>
+              <span class="chevron-down"><i class="fa-solid fa-chevron-down fa-xs"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore section ends-->
+
+
+  <!-- Footer section starts -->
+
+  <section class="footer-section container">
+    <div class="footer-container">
+      <div class="footer-icons">
+        <div class="zomato-black-logo">
+          <img src="image/zomato-black-logo.avif" alt="">
+        </div>
+
+        <div class="footer-icon-section">
+          <div class="icon-container">
+            <div class="footer-icon-wrap-box">
+              <img src="image/indian-flag-icon.png" alt="">
+              <p>India</p>
+              <span class="chevron-down"><i class="fa-solid fa-chevron-down fa-xs"></i></span>
+            </div>
+          </div>
+
+          <div class="icon-container">
+            <div class="footer-icon-wrap-box">
+              <span><i class="fa fa-globe"></i></span>
+              <p>English</p>
+              <span class="chevron-down"><i class="fa-solid fa-chevron-down fa-xs"></i></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer-links-container">
+        <div class="links-box">
+          <h5 class="links-heading">ABOUT ZOMATO</h5>
+          <p>Who We Are</p>
+          <p>Blog</p>
+          <p>Work With Us</p>
+          <p>Investor Reltions</p>
+          <p>Report Fraud</p>
+          <p>Contact Us</p>
+        </div>
+
+        <div class="links-box">
+          <h5 class="links-heading">ZOMAVERSE</h5>
+          <p>Zomato</p>
+          <p>Blinkit</p>
+          <p>Feeding India</p>
+          <p>Hyperpure</p>
+          <p>Zomaland</p>
+        </div>
+
+        <div class="links-box">
+          <h6 class="links-heading">FOR RESTAURANTS</h6>
+          <p>Partner With Us</p>
+          <p>Apps For You</p>
+
+          <h6 class="links-heading enterprises-link">FOR ENTERPRISES</h6>
+          <p>Zomato For Enterprise</p>
+        </div>
+
+
+        <div class="links-box">
+          <h6 class="links-heading">LEARN MORE</h6>
+          <p>Privacy</p>
+          <p>Security</p>
+          <p>Terms</p>
+          <p>Sitemap</p>
+        </div>
+
+        <div class="links-box social-links-container">
+          <h6 class="links-heading">SOCIAL LINKS</h6>
+
+          <div class="social-media-container">
+            <img class="social-media-icons" src="image/linkedin.svg" alt="">
+            <img class="social-media-icons" src="image/instagram.svg" alt="">
+            <img class="social-media-icons" src="image/twitter.png" alt="">
+            <img class="social-media-icons" src="image/youtube.svg" alt="">
+            <img class="social-media-icons" src="image/facebook.svg" alt="">
+
+          </div>
+
+          <div class="app-store-logos">
+            <img src="image/zomato-app-store.webp" alt="">
+            <img src="image/zomato-playstore-logo.webp" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <hr class="horizondal-line">
+
+      <p class="copyright">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy
+        Policy and
+        Content
+        Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights
+        reserved.</p>
+    </div>
+  </section>
+
+  <!-- Footer section ends -->
+
+</body>
+
+</html>
